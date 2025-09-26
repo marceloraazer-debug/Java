@@ -67,6 +67,7 @@ public class Lista16 {
 		System.out.println("======");
 
 		// 5 - Procurando um nome no vetor
+		System.out.println("5 - Procurando um nome no vetor");
 		String[] nomes = new String[5];
 		for (int i = 0; i < 5; i++) {
 			System.out.print("Digite o nome " + (i + 1) + ": ");
@@ -77,13 +78,11 @@ public class Lista16 {
 		String busca = scanner.next();
 
 		int qtd = 0;
-
 		for (int i = 0; i < 5; i++) {
 			if (nomes[i].equalsIgnoreCase(busca)) {
 				qtd++;
 			}
 		}
-
 		if (qtd > 0) {
 			System.out.println("O nome existe.");
 		} else {
@@ -93,6 +92,7 @@ public class Lista16 {
 		System.out.println("======");
 
 		// 6 - Produto e preço
+		System.out.println("6 - Produto e preço");
 		String[] produtos = new String[4];
 		double[] precos = new double[4];
 		for (int i = 0; i < 4; i++) {
@@ -108,6 +108,7 @@ public class Lista16 {
 		System.out.println("======");
 
 		// 7 - Verificação de notas
+		System.out.println("7 - Verificação de notas");
 		double[] notas = new double[6];
 		for (int i = 0; i < 6; i++) {
 			System.out.print("Digite a nota " + (i + 1) + ": ");
@@ -126,6 +127,7 @@ public class Lista16 {
 		System.out.println("======");
 
 		// 8 - Promoção de ingressos
+		System.out.println("8 - Promoção de ingressos");
 		double[] ingressos = new double[5];
 		for (int i = 0; i < 5; i++) {
 			System.out.print("Digite o preço do ingresso " + (i + 1) + ": ");
