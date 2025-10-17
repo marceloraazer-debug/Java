@@ -100,24 +100,26 @@ public class Lista21 {
 
     }
 
-    // Funções
-
     public static String linha() {
         return "---=-=-=-=-=-=-=-=-=-=-=-=-=---";
     }
-
+    
+    // 1 
     public static int somar(int soma1, int soma2) {
         return soma1 + soma2;
     }
-
+    
+    // 2
     public static int subtrair(int sub1, int sub2) {
         return sub1 - sub2;
     }
-
+    
+    // 3
     public static int multiplicar(int mult1, int mult2) {
         return mult1 * mult2;
     }
-
+    
+    // 4
     public static String dividir(int div1, int div2) {
         if (div2 == 0) {
             return "Não é possível dividir por 0";
@@ -125,11 +127,13 @@ public class Lista21 {
             return "Resultado: " + (div1 / div2);
         }
     }
-
+    
+    // 5
     public static double calcularMedia(double media1, double media2) {
         return (media1 + media2) / 2;
     }
-
+    
+    // 6
     public static String verificarApr(double notaAprov1, double notaAprov2) {
         double media = calcularMedia(notaAprov1, notaAprov2);
         if (media >= 6) {
@@ -139,6 +143,7 @@ public class Lista21 {
         }
     }
 
+    // 7
     public static String maiorNumero(int maiorNum1, int maiorNum2) {
         if (maiorNum1 > maiorNum2) {
             return "Maior número: " + maiorNum1;
@@ -148,23 +153,28 @@ public class Lista21 {
             return "Eles são iguais";
         }
     }
-
+    
+    // 8
     public static double converter(double tempCelsius) {
         return (tempCelsius * 9 / 5) + 32;
     }
 
+    // 9
     public static double calcular(double baseRet, double alturaRet) {
         return baseRet * alturaRet;
     }
 
+    // 10
     public static String gerarMensagem(String nomePessoa) {
         return "Olá, " + nomePessoa + "!";
     }
-
+    
+    // 11
     public static String juntarNomes(String nomePrimeiro, String nomeSegundo) {
         return nomePrimeiro + " " + nomeSegundo;
     }
 
+    // 12
     public static String avaliarIdade(int idadePessoa) {
         if (idadePessoa < 12) {
             return "Criança";
